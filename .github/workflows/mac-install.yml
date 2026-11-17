@@ -1,0 +1,16 @@
+name: Apple Silicon first installation
+on:
+  push:
+    branches: [preview-mac-27]
+permissions:
+  contents: read
+jobs:
+  cold-install:
+    runs-on: macos-15
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Verify distributed archive on Apple Silicon
+        run: python3 qa/verify-install.py sumai-agent-27-darwin-arm64.tar.gz a244c86538530f6a160cb9665908502a3e8cadd8e994afbb643164a7d207fd6a
