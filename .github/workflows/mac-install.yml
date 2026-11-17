@@ -13,4 +13,4 @@ jobs:
         with:
           persist-credentials: false
       - name: Verify distributed archive on Apple Silicon
-        run: python3 qa/verify-install.py sumai-agent-27-darwin-arm64.tar.gz a244c86538530f6a160cb9665908502a3e8cadd8e994afbb643164a7d207fd6a
+        run: python3 qa/verify-install.py sumai-agent-27-darwin-arm64.tar.gz 4016c4be95f018322b9d7a7ac035dd28d94b696a4e7364ff39cee0fdd3a12305
