@@ -1,2 +1,3 @@
 f945649cb827359a7937da7e487158cb3eb09efd1dd7919aaa88f52424841986  sumai-agent-install-25-win-x64.zip
 2676dd9112fed4195d65057733990935b1d175d943124cbe060ae7f55f3fdeb8  sumai-agent-install-26-win-x64.zip
+c6deb66c13769aa7d9b219cfafbeabff11830dd8be7ac35805aa0d7a7edefa3c  sumai-agent-install-27-win-x64.zip
