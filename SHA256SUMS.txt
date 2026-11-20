@@ -1,0 +1,1 @@
+1b4ec4a23684ef05ef9b6a4460e0668d7a01c2403b607aa1c58e3288fe44e8f5  sumai-agent-29-darwin-arm64.tar.gz

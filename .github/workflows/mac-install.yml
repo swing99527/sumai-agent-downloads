@@ -1,0 +1,16 @@
+name: Apple Silicon workspace 29 rc7
+on:
+  push:
+    branches: [preview-mac-29-rc7]
+permissions:
+  contents: read
+jobs:
+  cold-install:
+    runs-on: macos-15
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Verify fixed package and native MCP on Apple Silicon
+        run: python3 qa/verify-workspace.py sumai-agent-29-darwin-arm64.tar.gz 1b4ec4a23684ef05ef9b6a4460e0668d7a01c2403b607aa1c58e3288fe44e8f5 qa/workspace-package.test.mjs
