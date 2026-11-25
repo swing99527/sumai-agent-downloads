@@ -1,2 +1,2 @@
-7b150a0a13e15b975c9cba6f8ecc453d8227b80bb7240f9aa751658d8a1b255f  sumai-agent-29-win-x64.zip
-02206d984c611581077dab4427cc291cd397f0c86c3eb6a9d2fb3c22c201f8ae  sumai-agent-29-darwin-arm64.tar.gz
+5f1c8de0e8626065d73bf8ecae413a19ac4200d6518b372c7e7f5c5ef6bb7a0d  sumai-agent-29-win-x64.zip
+8d8101194db21155caf03b67872ee85fbb9cfd58443f4dbc77236910308ca6db  sumai-agent-29-darwin-arm64.tar.gz
